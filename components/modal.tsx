@@ -1,4 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion';
+import { useBodyOverflow } from './libs/useBodyOverflow';
 
 interface ModalProps {
   isOpen?: boolean;
@@ -7,6 +8,7 @@ interface ModalProps {
 }
 
 const Modal = ({ isOpen, children }: ModalProps) => {
+  useBodyOverflow(isOpen!);
   return (
     <AnimatePresence>
       {isOpen && (

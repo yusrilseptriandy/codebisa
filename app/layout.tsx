@@ -3,7 +3,6 @@ import { Inter, Onest } from 'next/font/google';
 import './globals.css';
 import Layout from '../components/layout';
 import { Providers } from './providers';
-import ThemeSwitch from '@/components/theme-switch';
 
 const font = Onest({ subsets: ['latin'] });
 
