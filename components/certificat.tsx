@@ -10,9 +10,7 @@ const Certificat = () => {
       <div className="flex gap-4">
         <div className="flex items-center">
           <Image
-            src={
-              'https://scontent-cgk2-1.xx.fbcdn.net/v/t39.30808-6/356379626_631128189145406_1015332997625790136_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=jOn5FsolAccQ7kNvgHJOvBT&_nc_ht=scontent-cgk2-1.xx&oh=00_AYBManXIwLz6hJ6NfySyfZatDxg1bNPg5uPAmU-6dcikgQ&oe=66AC4E90'
-            }
+            src={'/dicoding.jpg'}
             alt="dicoding"
             width={80}
             height={80}
@@ -39,9 +37,7 @@ const Certificat = () => {
       <div className="flex gap-4">
         <div className="flex items-center">
           <Image
-            src={
-              'https://scontent-cgk2-1.xx.fbcdn.net/v/t39.30808-6/250929173_3179576238942422_6492034145953428513_n.png?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=wQCCujgddVgQ7kNvgGpA69n&_nc_ht=scontent-cgk2-1.xx&oh=00_AYBqTHxRn2WDi15OVFFqANt1sRLpfXiPulmDdgQWHIMm-g&oe=66AC5999'
-            }
+            src={'/fcc.png'}
             alt="freecodecamp"
             width={80}
             height={80}
