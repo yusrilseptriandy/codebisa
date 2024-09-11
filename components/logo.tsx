@@ -16,7 +16,7 @@ const font2 = Tac_One({ subsets: ['latin'], weight: '400' });
 const Logo = () => {
   return (
     <Link href={'/'} className={`${font.className} text-2xl flex items-center`}>
-      <h1 className="font-semibold mr-1 text-md ml-3">Codebisa</h1>
+      <h1 className="font-semibold text-md">Codebisa</h1>
     </Link>
   );
 };
