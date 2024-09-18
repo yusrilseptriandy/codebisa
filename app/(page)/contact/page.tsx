@@ -1,8 +1,12 @@
 import Contact from '@/components/contact';
 import EmailButton from '@/components/contact-email';
-import Image from 'next/image';
-import Link from 'next/link';
-import { FaExternalLinkAlt } from 'react-icons/fa';
+
+
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Yusrilsptr | Contact',
+};
 
 const ContactPage = () => {
   return (

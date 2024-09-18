@@ -2,6 +2,12 @@ import Certificat from '@/components/certificat';
 import Skill from '@/components/skill';
 import TypeWriterAnimation from '@/components/type-writer';
 
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Yusrilsptr | Home',
+};
+
 export default function Home() {
   return (
     <div className="flex w-full h-full md:px-60">
