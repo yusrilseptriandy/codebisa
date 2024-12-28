@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 
 const EmailButton = () => {
-  const emailAddress = 'test@example.com';
+  const emailAddress = 'yusrilseptriandy@gmail.com';
   const subject = '';
   const body = '';
 
